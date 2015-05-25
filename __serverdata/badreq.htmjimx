@@ -8,7 +8,7 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-      <img src="http://weblogme/__primg/ixon.png" class="logo" style="margin-top:0px;" width="120px" />
+      <img src="/__primg/ixon.png" class="logo" style="margin-top:0px;" width="120px" />
         <a href="http://weblogme/" class="brand-logo left10">WebLog.me</a>
       </div>
     </nav>
