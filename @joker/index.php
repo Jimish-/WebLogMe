@@ -1,0 +1,2 @@
+<!DOCTYPE html><html><head><title>Whatsapp Jokerrr</title><script type="text/javascript" src="../js/jimx_quickSearch.js"></script><link rel="stylesheet" type="text/css" href="../styles/style_4.css"/><link rel="stylesheet" type="text/css" href="../css/editor.css"/><link href="../__primg/ixon.png" rel="icon" type="image/png" /></head><body><div class="body_wrap" align="center"><div align="center" class="content_wrap"><header>Whatsapp Jokerrr</header></div><div id="searchArea"></div><!--[[-Nextpost-]]-->
+</div></body></html>

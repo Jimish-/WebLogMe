@@ -1,0 +1,181 @@
+
+h1, h2 {
+  line-height: 1;
+  font-family: Rockwell, "Courier New", Courier, Georgia;
+  border-bottom: 1px solid #999;
+  font-weight: bold;
+  margin: 0 5px 25px 0;
+  padding: 0 0 8px;
+}
+
+.postArea h1 {
+  font-size: 27px;
+}
+
+.postArea h2 {
+  font-size: 18px;
+}
+
+.postArea p, li {
+  line-height: 1.5;
+}
+
+.postArea p, ul, ol {
+  padding-bottom: 25px;
+}
+
+.postArea a {
+  color: inherit;
+}
+
+.postArea strong, b {
+  font-weight: bold;
+}
+
+.postArea i, em {
+  font-style: italic;
+}
+
+.postArea li {
+  margin-left: 30px;
+}
+
+.postArea ul li {
+  list-style: disc outside;
+}
+
+.postArea ol li {
+  list-style: decimal outside;
+}
+
+.postArea li img {
+  vertical-align: middle;
+  margin: 2px 5px 5px 0;
+}
+
+.wysiwyg-color-black {
+  color: black;
+}
+
+.wysiwyg-color-silver {
+  color: silver;
+}
+
+.wysiwyg-color-gray {
+  color: gray;
+}
+
+.wysiwyg-color-white {
+  color: white;
+}
+
+.wysiwyg-color-maroon {
+  color: maroon;
+}
+
+
+.wysiwyg-color-red {
+  color: red;
+}
+
+.wysiwyg-color-purple {
+  color: purple;
+}
+
+.wysiwyg-color-fuchsia {
+  color: fuchsia;
+}
+
+.wysiwyg-color-green {
+  color: green;
+}
+
+.wysiwyg-color-lime {
+  color: lime;
+}
+
+.wysiwyg-color-olive {
+  color: olive;
+}
+
+.wysiwyg-color-yellow {
+  color: yellow;
+}
+
+.wysiwyg-color-navy {
+  color: navy;
+}
+
+.wysiwyg-color-blue {
+  color: blue;
+}
+
+.wysiwyg-color-teal {
+  color: teal;
+}
+
+.wysiwyg-color-aqua {
+  color: aqua;
+}
+.postArea img{
+        width: 550px;
+      }
+
+      .content_wrap{
+        float:center;
+        width:600px;
+      }
+
+      .postArea{
+        border: 1px rgb(210,210,210) solid;
+        width: 550px;
+        padding: 10px;
+
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+
+        background: rgba(252, 252, 252 , 0.7);
+
+        color: rgb(0, 0, 0);
+        font-size: inherit;
+        font-weight: inherit;
+        font-family: 'Comic Sans MS', cursive;
+        font-style: inherit;
+        text-decoration: inherit;
+        text-align: center;
+
+        line-height: 1.3em;
+        -moz-box-shadow:  0px 0px 3px 1px rgb(239, 239, 239);
+        -webkit-box-shadow:  0px 0px 3px 1px rgb(239, 239, 239);
+        box-shadow:  0px 0px 3px 1px rgb(239, 239, 239);
+        
+        border-radius: 5px; 
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px; 
+  
+      }
+
+      .postTime, .postAuther{
+        font-family: Garamond, serif;
+        text-align: right;
+        bottom: 0;
+        right: 0;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      
+      .postTime{
+        margin-top: 5px;
+        border-top:1px dashed rgba(20,20,20,0.5);
+      }
+      .postArea{
+        text-align: left;
+        margin-top: 20px;
+      }
+      button{
+     font-family:monospace,monospace;
+      }
+      button i{
+        font-style: normal!important;
+      }

@@ -1,0 +1,9 @@
+ErrorDocument 404 /bad_request.php
+
+<Files .htaccess>
+	order allow,deny
+	deny from all
+</Files>
+
+Options All -Indexes
+ 
