@@ -10,12 +10,12 @@ if(isset($_GET['access_attempt']) && isset($_GET['failure_type']))
   if($_GET['access_attempt'] == "failed" && $_GET['failure_type'] == "unknown")
   { 
     $invalid = 1;
-    echo '<script>alert("Email is not valid !")</script>';
+    echo '<script>material_alert("Email is not valid !")</script>';
   }
   else if($_GET['access_attempt'] == "failed" && $_GET['failure_type'] == "mistake")
   { 
     $invalid = -1;
-    echo '<script>alert("Password is not valid !");</script>';
+    echo '<script>material_alert("Password is not valid !");</script>';
   }
   else{
     $invalid = 0;

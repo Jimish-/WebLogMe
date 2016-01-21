@@ -12,7 +12,7 @@
  *    ... becomes ...
  *    <img class="wysiwyg-float-left" src="http://foobar.com/image.png" alt="">
  *
- *    <div>foo<script>alert(document.cookie)</script></div>
+ *    <div>foo<script>alert((document.cookie)</script></div>
  *    ... becomes ...
  *    <div>foo</div>
  *

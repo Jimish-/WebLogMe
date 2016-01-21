@@ -65,7 +65,7 @@ if(isset($_SESSION['email']))
                 
                  if(str.trim()=="")
                   {
-                    alert("Please Write a proper post Before posting!");
+                    material_alert("Please Write a proper post Before posting!");
                   }
                   else{
 

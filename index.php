@@ -173,10 +173,6 @@ if(isset($_SESSION['email']))
                   Sign In!!
                 </a>
   
-
-              <a class="modal-trigger waves-effect waves-light btn" href="#__al_mod">Modal</a>
-
-                <button  class="waves-effect waves-light  green btn darken-1" onclick="javascript:material_alert('yip')"> buddy </button>
                 <a href="./signup/" class="waves-effect waves-light  green btn darken-1" style="color:white">
                   Register Now !!
                 </a>

@@ -40,6 +40,9 @@ if(isset($_SESSION['email']))
           .form_hide{
            display: none;
           }
+          .postArea{
+            margin-left: 10px;
+          }
           </style>
            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
             <script type="text/javascript" src="./libs/js/jquery-2.1.1.min.js"></script>
@@ -138,7 +141,7 @@ if(isset($_SESSION['email']))
 
             });
                    /* function deleteConformed(){
-                          alert(dataToDelete.attr("id"));
+                          material_alert(dataToDelete.attr("id"));
                               $('#loading').closeModal();
                               $("#loadedContent").css({display:"none"});
                      }; */ 
@@ -241,10 +244,10 @@ if(isset($_SESSION['email']))
             <svg class="spinner-container" width="65px" height="65px" viewBox="0 0 52 52">
               <circle class="path" cx="26px" cy="26px" r="20px" fill="none" stroke-width="4px"></circle>
             </svg>
-            <h5>Please Wait...</h5>
+            <h6>Please Wait...</h6>
             </div>
               <div id="loadedContentDelete" style="display:none;"class="modal-content">
-                <h5>Post Deleted Succesfully !</h5>
+                <h6>Post Deleted Succesfully !</h6>
                 <a href="#!" id="closeM" class="modal-action modal-close waves-effect red btn-flat ">Close</a>
               </div>
 
@@ -263,4 +266,4 @@ else{
 }
 
 
- ?>
+ 

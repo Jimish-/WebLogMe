@@ -127,7 +127,7 @@ if (isset($_POST['txt']) && isset($_POST['repl']))
             
             if(dataHtml.trim() == "")
             {
-              alert("Please Write a post Before posting!");
+              material_alert("Please Write a post Before posting!");
             }
             else{
 

@@ -67,7 +67,7 @@ if(isset($_SESSION['apr']) )
                         blogId = $("#idblg").val();
                              
                               if(okay == false)
-                                { alert("Namespace for your Blog is not available ! \n Try another one... ");}
+                                { material_alert("Namespace for your Blog is not available ! \n Try another one... ");}
                               else{
 
                                 var posting;
@@ -95,7 +95,7 @@ if(isset($_SESSION['apr']) )
           </a>
           <ul>
             <li>
-              <a class="btn-floating red darken-3 tooltipped" data-position="left" data-delay="1" data-tooltip="Signout" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;">
+              <a href="/signout" class="btn-floating red darken-3 tooltipped" data-position="left" data-delay="1" data-tooltip="Signout" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;">
                  <i class="large mdi-communication-call-made"></i>
               </a>
             </li>

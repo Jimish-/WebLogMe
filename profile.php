@@ -87,7 +87,7 @@ if(isset($_SESSION['email']))
                             
                             posting.done(function(d) {
                               console.log(d);
-                               alert("Theme have been changed sucessfully !");
+                               material_alert("Theme have been changed sucessfully !");
                                 location.reload(true);
 
                           });  
@@ -128,7 +128,7 @@ if(isset($_SESSION['email']))
 
                       if(dataArray['fname']=="" || dataArray['lname']=="" ||  dataArray['fname'].trim()=="" || dataArray['lname'].trim() == "")
                       {
-                        alert("Inalid Input Detected.. Please Recheck");
+                        material_alert("Inalid Input Detected.. Please Recheck");
                         return false;
                       }  
                     }
@@ -139,7 +139,7 @@ if(isset($_SESSION['email']))
 
                       if( (dataArray['email']=="" || dataArray['email'].trim()=="") && checkemail(dataArray['email']) )
                       {
-                        alert("Inalid Input Detected.. Please Recheck");
+                        material_alert("Inalid Input Detected.. Please Recheck");
                         return false;
                       }
                     }
@@ -153,7 +153,7 @@ if(isset($_SESSION['email']))
 
                       if(dataArray['oldp']==""  || dataArray['newp']=="" ||  dataArray['oldp'].trim()=="" || dataArray['newp'].trim()==""  )
                       {
-                        alert("Inalid Input Detected.. Please Recheck");
+                        material_alert("Inalid Input Detected.. Please Recheck");
                         return false;
                       }             
                     }
@@ -166,7 +166,7 @@ if(isset($_SESSION['email']))
                                   };
                       if(dataArray['bname'].trim()=="")
                       {
-                        alert("Inalid Input Detected.. Please Recheck");
+                        material_alert("Inalid Input Detected.. Please Recheck");
                         return false;
                       }
                     }
@@ -176,28 +176,28 @@ if(isset($_SESSION['email']))
                                 console.log(d);
                                 if(d=="wpOld")
                                 { 
-                                  alert("You have given Wrong password for Authentication !");
+                                  material_alert("You have given Wrong password for Authentication !");
                                   $("#icon_prefix_pwd1").focus();
                                   }
                                 else if(d == "doneNames" )
                                 {
-                                   alert("Names changed sucessfully !");
+                                   material_alert("Names changed sucessfully !");
                                    location.reload(true);
                                  }
                                  else if(d == "doneBname" )
                                 {
-                                   alert("Blog name changed sucessfully !");
+                                   material_alert("Blog name changed sucessfully !");
                                    location.reload(true);
                                  }
                                 else if(d == "donePass" )
                                 {
-                                   alert("Password changed sucessfully !");
+                                   material_alert("Password changed sucessfully !");
                                    location.reload(true);
                                  }
 
                                 else if(d == "doneEmail")
                                 { 
-                                  alert("Email Changed sucessfully !");
+                                  material_alert("Email Changed sucessfully !");
                                   location.reload(true);
                                  }
                                 
