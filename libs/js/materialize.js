@@ -5691,3 +5691,18 @@ Picker.extend( 'pickadate', DatePicker )
 }));
 
 
+
+/*
+<a class="modal-trigger waves-effect waves-light btn" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+    
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Okay</a>
+    </div>
+  </div>
+          
+*/

@@ -38,7 +38,7 @@ function jimxSearch(par){
 			
 					infoDiv.innerHTML = '<br><br><i>'+strToDisplay+'</i>" <b>'+strToSearch+'</b> "...';
 					  	for (var i = 0 ; i < postClass.length; i++) {
-							s = postClass[i].textContent;
+							s = postClass[i].innerHTML.replace(/<[^>]*>/g, "").replace("&nbsp;"," ");
 					 			if(s.toLowerCase().indexOf(strToSearch) > -1)	
 								{
 									postClass[i].style.display="block";

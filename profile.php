@@ -278,7 +278,7 @@ if(isset($_SESSION['email']))
               <a class="page-title"><?php echo $fname."&nbsp;".$lname; ?></a>  
             </div>
           </div>
-          <a data-activates="nav-mobile" class="button-collapse top-nav full" style="margin-top:25px;"><i class="mdi-navigation-menu"></i></a>
+          <a data-activates="nav-mobile" class="button-collapse hard top-nav full" style="margin-top:25px;"><i class="mdi-navigation-menu"></i></a>
         </nav>
   </header> 
 

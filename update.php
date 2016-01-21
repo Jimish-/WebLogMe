@@ -212,7 +212,7 @@ if(isset($_SESSION['email']))
   <main style="padding-left:90px;">
     
     <div class="container">
-    
+    <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full "><i class="mdi-navigation-menu " style="color:teal;"></i></a>
     <h5 class="header small">Update your Blog.</h5>
 
 <?php 

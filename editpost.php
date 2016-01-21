@@ -1,7 +1,10 @@
 
 <?php
+session_start();
 if (isset($_POST['txt']) && isset($_POST['repl']))
 {
+        include("./server/isImage.php");
+
  ?>
 
 <!DOCTYPE html>
@@ -23,7 +26,7 @@ if (isset($_POST['txt']) && isset($_POST['repl']))
        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
             <script type="text/javascript" src="./libs/js/materialize.min.js"></script>  
               <style type="text/css">
-          .profilePic_cnt,.text_onPic {
+         /* .profilePic_cnt,.text_onPic {
             float: right;
             width: 140px;
             height: 140px;
@@ -32,7 +35,7 @@ if (isset($_POST['txt']) && isset($_POST['repl']))
             border-radius: 80px;
 
 
-          }
+          }*/
       </style>
       <style type="text/css">
 #startup {
@@ -202,7 +205,7 @@ if (isset($_POST['txt']) && isset($_POST['repl']))
        <li>
         <a id="logo-container" href="#" class="brand-logo">
               <div class="image-container wrapper_pic">
-                <img id="front-page-logo" class="profilePic_cnt" src="./__primg/_defaultProfile.png">
+                <img id="front-page-logo" class="profilePic_cnt" src="<?php echo $imgsrc; ?>">
               </div>
         </a>   
        </li>
